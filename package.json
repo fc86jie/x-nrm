@@ -1,0 +1,20 @@
+{
+  "name": "x-nrm",
+  "version": "1.0.0",
+  "description": "npm registry tool",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "x-nrm": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.0"
+  }
+}
