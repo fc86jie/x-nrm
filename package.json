@@ -1,6 +1,6 @@
 {
   "name": "x-nrm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "npm registry tool",
   "main": "index.js",
   "type": "module",
