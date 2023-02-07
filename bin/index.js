@@ -5,7 +5,7 @@
  * @Author: wangrenjie86@gmail.com
  * @Date: 2023-02-06 13:07:37
  * @LastEditors: wangrenjie86@gmail.com
- * @LastEditTime: 2023-02-07 10:26:51
+ * @LastEditTime: 2023-02-07 10:46:36
  * @FilePath: \bin\index.js
  * @Description:
  */
@@ -39,7 +39,7 @@ const PKG = await json2obj('../package.json');
 const { name, version } = PKG;
 let { argv } = process;
 // 显示版本号
-if (argv.includes('-v') || argv.includes('-V')) {
+if (argv.includes('-v')) {
   console.log(chalk.white(`${name}：v${version}`));
 }
 // 显示当前所有的源
@@ -123,4 +123,13 @@ else if (argv.includes('ls')) {
   } else {
     console.log(chalk.red(`${name} is not in x-nrm list`));
   }
+} else if (argv.includes('-h')) {
+  console.log(
+    chalk.white(`
+    add: x-nrm add name registryUrl to list
+    del: x-nrm del name can delete name of list
+    ls: x-nrm ls can show all list
+    -v: x-nrm -v can show version
+  `)
+  );
 }
