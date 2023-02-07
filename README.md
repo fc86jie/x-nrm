@@ -1,5 +1,9 @@
 ## npm registry tool like nrm
 
+### Installation
+
+`npm install commander -g`
+
 ### 当前支持的命令
 
 - `x-nrm -v,-V`：显示当前版本
