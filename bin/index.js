@@ -1,10 +1,11 @@
 #!/usr/bin/env node
+// 一定要放在第一行（包括注释）
 
 /**
  * @Author: wangrenjie86@gmail.com
  * @Date: 2023-02-06 13:07:37
  * @LastEditors: wangrenjie86@gmail.com
- * @LastEditTime: 2023-02-06 22:29:36
+ * @LastEditTime: 2023-02-07 10:26:51
  * @FilePath: \bin\index.js
  * @Description:
  */
